@@ -1,2 +1,5 @@
-# MGMD
-Codes for the paper "Motion-guided small MAV detection in complex and non-planar scenes"
+# YOLOMG
+Codes for the paper "YOLOMG: Extremely Small Drone-to-Drone Detection with Appearance and Pixel-level Motion Fusion"
+
+# Dataset
+ARD100 dataset
