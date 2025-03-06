@@ -115,12 +115,12 @@ class Yolov5Detector():
 
 if __name__ == '__main__':
 
-    detector = Yolov5Detector(weights='/home/user-guo/Documents/YOLOMG/runs/train/ARD100_dual_uav2-1280/weights/best.pt')
-    img1 = cv2.imread('/home/user-guo/Documents/YOLOMG/data/Test/images/phantom05_0606.jpg')
-    img2 = cv2.imread('/home/user-guo/Documents/YOLOMG/data/Test/mask/phantom05_0606.jpg')
+    detector = Yolov5Detector(weights='./runs/train/ARD100_mask32-1280_uavs/weights/best.pt')
+    img1 = cv2.imread('./data/Test_images/images/phantom05_0606.jpg')
+    img2 = cv2.imread('./data/Test_images/mask/phantom05_0606.jpg')
     
     t1 = time.time()
-    labels, scores, boxes = detector.run(img1, img2, classes=[0, 1, 2, 3, 4])  # pedestrian, cyclist, car, bus, truck
+    labels, scores, boxes = detector.run(img1, img2, classes=[0, 1, 2, 3, 4]) 
     t2 = time.time()
     print('time cost:', t2 - t1, '\n')
     
