@@ -1,18 +1,18 @@
-## YOLOMG
-Codes for the paper "YOLOMG: Extremely Small Drone-to-Drone Detection with Appearance and Pixel-level Motion Fusion"
+# YOLOMG
+Codes and dataset for the paper "YOLOMG: Extremely Small Drone-to-Drone Detection with Appearance and Pixel-level Motion Fusion"
 
-## Dataset
+# Dataset
 ARD100 dataset
 - [BaiduYun](https://pan.baidu.com/s/1ycAoKbzQ1rlzvKr8VRakgw?pwd=1x2z ) (code:1x2z)
 
-## data processing
-# dataset spliting
+# data processing
+## dataset spliting
 python3 split_train_val.py --xml_path xx/xxx/Annotations --txt_path xx/xxx/ImageSets/Main
-# transfer voc label to yolo label with .txt files
+## transfer voc label to yolo label with .txt files
 python3 voc2yolo.p
-# generate images directory, train.txt, val.txt, test.txt
+## generate images directory, train.txt, val.txt, test.txt
 python3 voc_label.py
-# generate mask directory, train2.txt, val2.txt, test2.txt
+## generate mask directory, train2.txt, val2.txt, test2.txt
 Python3 voc_label2.py
 
 # train
