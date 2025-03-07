@@ -16,7 +16,7 @@ python3 voc_label.py
 Python3 voc_label2.py
 
 # train
-python3 train.py --data data/NPS.yaml --cfg models/dual_uav2.yaml --weights yolov5s.pt --batch-size 8 --epochs 100 --imgsz 1280 --name NPS-1280
+python3 train.py --data data/NPS.yaml --cfg models/NPS_uav_s.yaml --weights yolov5s.pt --batch-size 8 --epochs 100 --imgsz 1280 --name NPS-1280
 
 # val
 python3 val.py --weights runs/train/NPS-1280/weights/best.pt --data data/NPS_test.yaml --task val --conf-thres 0.001 --name NPS_test-1280 --imgsz 1280 --batch-size 8 --device 0
