@@ -6,6 +6,10 @@ ARD100 dataset
 - [BaiduYun](https://pan.baidu.com/s/1ycAoKbzQ1rlzvKr8VRakgw?pwd=1x2z ) (code:1x2z)
 
 # data processing in ./data directory
+## codes to generate dataset is in ./test_code directory
+python generate_mask5.py is applied to generate mask32
+python YOLOMG_extract_frames.py is used to generate images
+
 ## dataset spliting
 python3 split_train_val.py --xml_path xx/xxx/Annotations --txt_path xx/xxx/ImageSets/Main
 ## transfer voc label to yolo label with .txt files
