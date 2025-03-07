@@ -8,6 +8,7 @@ ARD100 dataset
 # data processing in ./data directory
 ## codes to generate dataset is in ./test_code directory
 python generate_mask5.py is applied to generate mask32
+
 python YOLOMG_extract_frames.py is used to generate images
 
 ## dataset spliting
