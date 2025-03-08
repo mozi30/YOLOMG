@@ -9,10 +9,6 @@ set1 = ['phantom02', 'phantom03', 'phantom04', 'phantom05', 'phantom47', 'phanto
 # light adaptation
 set2 = ['phantom92', 'phantom93', 'phantom94', 'phantom95', 'phantom97', 'phantom133', 'phantom135', 'phantom136']
 
-# test on similar scenes
-set3 = ['phantom08', 'phantom22', 'phantom39', 'phantom41', 'phantom45', 'phantom61', 'phantom64',
-        'phantom73', 'phantom79', 'phantom102', 'phantom110', 'phantom113', 'phantom119', 'phantom141', 'phantom144']
-
 # train videos
 sets = ['phantom09', 'phantom10', 'phantom14', 'phantom17', 'phantom19', 'phantom20', 'phantom28', 'phantom29', 'phantom30', 'phantom32',
         'phantom36', 'phantom40', 'phantom42', 'phantom43', 'phantom44', 'phantom46', 'phantom63', 'phantom65', 'phantom66', 'phantom68',
