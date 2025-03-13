@@ -1,5 +1,5 @@
 # YOLOMG
-Codes and dataset for the paper "YOLOMG: Extremely Small Drone-to-Drone Detection with Appearance and Pixel-level Motion Fusion"
+Codes and dataset for the paper "YOLOMG: Vision-Based Drone-to-Drone Detection with Appearance and Pixel-level Motion Fusion"
 [YOLOMG Paper](https://arxiv.org/abs/2503.07115 "Example Paper")
 
 # Dataset
