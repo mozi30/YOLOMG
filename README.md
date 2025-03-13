@@ -5,7 +5,7 @@ Codes and dataset for the paper "YOLOMG: Extremely Small Drone-to-Drone Detectio
 ARD100 dataset
 - [BaiduYun](https://pan.baidu.com/s/1ycAoKbzQ1rlzvKr8VRakgw?pwd=1x2z ) (code:1x2z)
 
-![Dataset Example Images](data/ARD100_samples2.png "Example Images ")
+![Dataset Example Images](data/ARD100_samples_show.png "Example Images ")
 
 ## codes to generate dataset is in ./test_code directory
 python generate_mask5.py is applied to generate mask32
