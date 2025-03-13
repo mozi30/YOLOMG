@@ -1,6 +1,5 @@
 # YOLOMG
 Codes and dataset for the paper "YOLOMG: Vision-based Drone-to-Drone Detection with Appearance and Pixel-Level Motion Fusion"
-[YOLOMG Paper](https://arxiv.org/abs/2503.07115 "Example Paper")
 
 # Dataset
 ARD100 dataset
