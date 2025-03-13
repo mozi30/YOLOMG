@@ -12,14 +12,16 @@ python generate_mask5.py is applied to generate mask32
 
 python YOLOMG_extract_frames.py is used to generate images
 
+python generate_dataset.py is used to generate train/test datasets. The videos id division is included.
+
 ## data processing in ./data directory
-## dataset spliting
+### dataset spliting
 python3 split_train_val.py --xml_path xx/xxx/Annotations --txt_path xx/xxx/ImageSets/Main
-## transfer voc label to yolo label with .txt files
+### transfer voc label to yolo label with .txt files
 python3 voc2yolo.py
-## generate images directory, train.txt, val.txt, test.txt
+### generate images directory, train.txt, val.txt, test.txt
 python3 voc_label.py
-## generate mask directory, train2.txt, val2.txt, test2.txt
+### generate mask directory, train2.txt, val2.txt, test2.txt
 Python3 voc_label2.py
 
 # train
