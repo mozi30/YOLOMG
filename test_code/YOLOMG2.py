@@ -30,7 +30,7 @@ set5 = ['phantom61', 'phantom133']
 
 for i in range(len(set5)):
     video_name = set5[i]
-    cap = cv2.VideoCapture('/home/user-guo/data/ARD-MAV/test_videos/' + video_name + '.mp4')
+    cap = cv2.VideoCapture('./videos/' + video_name + '.mp4')
 
     count = 0
     prveframe = None
