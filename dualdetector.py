@@ -1,8 +1,10 @@
 
 import os
 import sys
-cwd = os.getcwd().rstrip('test')
-sys.path.append(os.path.join(cwd, './'))
+# cwd = os.getcwd().rstrip('test')
+# sys.path.append(os.path.join(cwd, './'))
+cwd = os.getcwd()
+
 
 import cv2
 
@@ -57,7 +59,7 @@ def draw_predictions(img, label, score, box, color=(156, 39, 176), location=None
 class Yolov5Detector():
     def __init__(self, weights=''):
         imgsz = 1280
-        self.device = device = select_device('1')
+        self.device = device = select_device('0')
         self.half = half = device.type != 'cpu' # half precision only supported on CUDA
         
         # Load model
