@@ -1,10 +1,6 @@
 # YOLOMG
 Codes and dataset for the paper "YOLOMG: Vision-based Drone-to-Drone Detection with Appearance and Pixel-Level Motion Fusion"
 
-# Visualization
-
-[Videos](https://github.com/Irisky123/YOLOMG/releases/Visual_Comparison.mp4)
-
 # Dataset
 ARD100 dataset
 - [BaiduYun](https://pan.baidu.com/s/1ycAoKbzQ1rlzvKr8VRakgw?pwd=1x2z ) (code:1x2z)
