@@ -1,0 +1,16 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: /home/mozi/tu/repos/bachelor-tesis/datasets/uavdt/YOLOMG_VID/ImageSets/Main/train.txt
+train2: /home/mozi/tu/repos/bachelor-tesis/datasets/uavdt/YOLOMG_VID/ImageSets/Main/train2.txt
+val: /home/mozi/tu/repos/bachelor-tesis/datasets/uavdt/YOLOMG_VID/ImageSets/Main/val.txt
+val2: /home/mozi/tu/repos/bachelor-tesis/datasets/uavdt/YOLOMG_VID/ImageSets/Main/val2.txt
+
+# Classes (UAVDT has 3 classes: car, truck, bus)
+nc: 3  # number of classes
+names: ['car', 'truck', 'bus']  # class names
+
+# Paths
+path: /home/mozi/tu/repos/bachelor-tesis/datasets/uavdt/YOLOMG_VID  # dataset root dir
+train_images: images  # train images (relative to 'path') 
+val_images: images    # val images (relative to 'path')
+train_mask: masks     # train masks (relative to 'path')
+val_mask: masks       # val masks (relative to 'path')
